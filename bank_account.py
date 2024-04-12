@@ -81,7 +81,7 @@ def deposit_interaction(accounts):
     valid_client = False
     while not valid_client:
         info(accounts)
-        account_index = int(input(f"O deposito será efetuado na conta de qual cliente? (0 a {len(accounts) - 1}): "))
+        account_index = int(input(f"\n\nO deposito será efetuado na conta de qual cliente? (0 a {len(accounts) - 1}): "))
         if 0 <= account_index < len(accounts):
             valid_client = True
         else:
@@ -103,7 +103,7 @@ def transfer_interaction(accounts):
     valid_origin_client = False
     while not valid_origin_client:
         info(accounts)
-        origin_index = int(input(f"A transferência será efetuada da conta de qual cliente? (0 a {len(accounts) - 1}): "))
+        origin_index = int(input(f"\n\nA transferência será efetuada da conta de qual cliente? (0 a {len(accounts) - 1}): "))
         if 0 <= origin_index < len(accounts):
             valid_origin_client = True
         else:
