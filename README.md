@@ -1,4 +1,4 @@
-<h1 align=center>Bank Account 💸</br></br><div align=center><img src="http://ForTheBadge.com/images/badges/made-with-python.svg"></div></h1>
+<h1 align=center>Bank Account 💸</br></br><div align=center><img src="http://ForTheBadge.com/images/badges/made-with-python.svg"></div> <img src="https://badges.aleen42.com/src/cli.svg"></h1>
 <p text-align=justify>Considering that a bank agency has 5 customers and each customer has an account:</p>
 <table align=center>
   <thead>
