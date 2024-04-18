@@ -14,7 +14,7 @@ class BankAccount:
         self.__balance += value
 
     def withdraw(self, value):
-        discount = 0.25 * value
+        discount = 0.0025 * value
         self.__cpmf += discount
         self.__balance -= value + discount
 
